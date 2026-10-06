@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "nofog",
+  "version": "${version}",
+  "name": "NoFog",
+  "description": "Client-side: removes all fog, blindness fog, makes water and lava clear, and shrinks fire so it no longer blocks the view.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    { "config": "nofog.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
